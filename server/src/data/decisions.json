@@ -1,0 +1,190 @@
+[
+  {
+    "id": "expand_diabetes_clinic",
+    "name": "Expand Diabetes Clinic Slots",
+    "description": "Add 2 additional clinic sessions per week for women with gestational diabetes. Requires coordination across teams and dedicated space.",
+    "category": "pathway_access",
+    "costs": {
+      "capacityPoints": 3,
+      "staffEnergy": 2,
+      "cashBudget": 0
+    },
+    "effectTags": ["equity", "flow", "safety"],
+    "timing": "immediate"
+  },
+  {
+    "id": "group_education",
+    "name": "Launch Group Education Sessions",
+    "description": "Replace some 1:1 appointments with group education sessions covering nutrition, glucose monitoring, and birth preparation.",
+    "category": "pathway_access",
+    "costs": {
+      "capacityPoints": 2,
+      "staffEnergy": 1,
+      "cashBudget": 0
+    },
+    "effectTags": ["equity", "flow", "staff"],
+    "timing": "both",
+    "delayedCycles": 1
+  },
+  {
+    "id": "tighten_triage",
+    "name": "Tighten Triage Criteria",
+    "description": "Prioritise high-risk cases (T1DM, high HbA1c) for face-to-face appointments. Lower-risk women to virtual/phone follow-up.",
+    "category": "pathway_access",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 1,
+      "cashBudget": 0
+    },
+    "effectTags": ["safety", "flow"],
+    "timing": "immediate"
+  },
+  {
+    "id": "escalation_audits",
+    "name": "Increase Escalation Checks & Audits",
+    "description": "Weekly case review meetings and monthly audit of high-risk transfers to consultant-led care.",
+    "category": "clinical_safety",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 3,
+      "cashBudget": 0
+    },
+    "effectTags": ["safety", "governance"],
+    "timing": "immediate"
+  },
+  {
+    "id": "standardise_guidelines",
+    "name": "Standardise Guidelines & Handover",
+    "description": "Implement consistent documentation templates and structured handover protocols across all teams.",
+    "category": "clinical_safety",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 2,
+      "cashBudget": 1
+    },
+    "effectTags": ["safety", "governance", "resilience"],
+    "timing": "delayed",
+    "delayedCycles": 1
+  },
+  {
+    "id": "incident_review",
+    "name": "Enhanced Incident Review Process",
+    "description": "Rapid investigation and feedback loop for any adverse outcomes or near-misses.",
+    "category": "clinical_safety",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 2,
+      "cashBudget": 0
+    },
+    "effectTags": ["safety", "governance"],
+    "timing": "immediate"
+  },
+  {
+    "id": "remote_monitoring",
+    "name": "Remote Glucose Monitoring Rollout",
+    "description": "Digital platform for women to upload readings. Requires setup, training, and ongoing data management.",
+    "category": "digital_monitoring",
+    "costs": {
+      "capacityPoints": 1,
+      "staffEnergy": 2,
+      "cashBudget": 3
+    },
+    "effectTags": ["digital", "flow", "safety"],
+    "timing": "delayed",
+    "delayedCycles": 2
+  },
+  {
+    "id": "sms_reminders",
+    "name": "SMS Appointment Reminders",
+    "description": "Automated text reminders 48 hours before appointments to reduce DNA rates.",
+    "category": "digital_monitoring",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 0,
+      "cashBudget": 2
+    },
+    "effectTags": ["digital", "flow", "equity"],
+    "timing": "immediate"
+  },
+  {
+    "id": "telehealth_expansion",
+    "name": "Expand Telehealth Options",
+    "description": "Video consultations for routine follow-ups, reducing travel burden for women in rural areas.",
+    "category": "digital_monitoring",
+    "costs": {
+      "capacityPoints": 1,
+      "staffEnergy": 1,
+      "cashBudget": 2
+    },
+    "effectTags": ["digital", "equity", "flow"],
+    "timing": "immediate"
+  },
+  {
+    "id": "protected_learning",
+    "name": "Protected Learning Time",
+    "description": "Monthly half-day for case discussion, skills updates, and peer support. Reduces immediate capacity.",
+    "category": "workforce_wellbeing",
+    "costs": {
+      "capacityPoints": 2,
+      "staffEnergy": -2,
+      "cashBudget": 0
+    },
+    "effectTags": ["staff", "resilience", "governance"],
+    "timing": "delayed",
+    "delayedCycles": 1
+  },
+  {
+    "id": "bank_agency",
+    "name": "Bank/Agency Cover",
+    "description": "Temporary staff to cover gaps. Quick capacity boost but high cost and potential continuity issues.",
+    "category": "workforce_wellbeing",
+    "costs": {
+      "capacityPoints": -2,
+      "staffEnergy": 0,
+      "cashBudget": 4
+    },
+    "effectTags": ["flow", "staff"],
+    "timing": "immediate"
+  },
+  {
+    "id": "wellbeing_support",
+    "name": "Staff Wellbeing Initiative",
+    "description": "Access to clinical supervision, reflective practice sessions, and occupational health support.",
+    "category": "workforce_wellbeing",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 0,
+      "cashBudget": 2
+    },
+    "effectTags": ["staff", "resilience"],
+    "timing": "delayed",
+    "delayedCycles": 1
+  },
+  {
+    "id": "community_outreach",
+    "name": "Community Outreach Programme",
+    "description": "Partner with community groups to reach underserved populations earlier in pregnancy.",
+    "category": "pathway_access",
+    "costs": {
+      "capacityPoints": 2,
+      "staffEnergy": 2,
+      "cashBudget": 1
+    },
+    "effectTags": ["equity", "safety"],
+    "timing": "delayed",
+    "delayedCycles": 2
+  },
+  {
+    "id": "interpreter_services",
+    "name": "Enhanced Interpreter Services",
+    "description": "On-demand language support for consultations, reducing miscommunication risks.",
+    "category": "pathway_access",
+    "costs": {
+      "capacityPoints": 0,
+      "staffEnergy": 1,
+      "cashBudget": 2
+    },
+    "effectTags": ["equity", "safety"],
+    "timing": "immediate"
+  }
+]

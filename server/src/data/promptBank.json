@@ -1,0 +1,534 @@
+[
+  {
+    "id": "safety_drop_general",
+    "category": "plenary",
+    "trigger": {
+      "condition": "safety_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "We've seen safety scores decline this cycle. What specific factors do you think contributed to this? What early warning signs might you have missed?",
+      "When safety suffers, what are the first things to deteriorate? Think about communication, documentation, escalation pathways.",
+      "Several teams saw safety impacts. What's the relationship between the decisions you made and the safety outcomes you experienced?"
+    ]
+  },
+  {
+    "id": "equity_drop_general",
+    "category": "plenary",
+    "trigger": {
+      "condition": "equity_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "Equity scores dropped for some teams. Who might be falling through the gaps when services are under pressure?",
+      "When you tighten access or prioritise cases, what assumptions are you making about who can wait? What are the risks?",
+      "How do we balance clinical prioritisation with ensuring everyone can access care? Where's the line?"
+    ]
+  },
+  {
+    "id": "staff_burnout_general",
+    "category": "plenary",
+    "trigger": {
+      "condition": "staff_burnout",
+      "parameters": { "threshold": 15 }
+    },
+    "templates": [
+      "Staff wellbeing has taken a hit across multiple teams. What are the early warning signs of burnout, and when do you intervene?",
+      "You're seeing increased sickness and low morale. What's the cost of not investing in your team? What happens next year?",
+      "How do you protect your workforce when the demand never stops? What's sustainable vs what's just surviving?"
+    ]
+  },
+  {
+    "id": "resilience_drop_general",
+    "category": "plenary",
+    "trigger": {
+      "condition": "resilience_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "System resilience has decreased. What makes a service fragile vs robust? Think about dependencies, single points of failure.",
+      "When resilience drops, what happens the next time you face a shock? How much buffer do you have left?",
+      "You've burned through your reserves – financial, staff energy, goodwill. What's your recovery plan?"
+    ]
+  },
+  {
+    "id": "backlog_rise_plenary",
+    "category": "plenary",
+    "trigger": {
+      "condition": "backlog_rise",
+      "parameters": { "threshold": 20 }
+    },
+    "templates": [
+      "Backlogs are growing. At what point does a waiting list become a safety issue? How do you know?",
+      "You're rationing appointments. Who decides which women wait? What criteria are you using, and are they equitable?",
+      "A backlog isn't just numbers – it's women waiting, worrying, potentially deteriorating. How do you manage that ethically?"
+    ]
+  },
+  {
+    "id": "dna_rise_plenary",
+    "category": "plenary",
+    "trigger": {
+      "condition": "dna_rise",
+      "parameters": { "threshold": 5 }
+    },
+    "templates": [
+      "DNA rates are rising. Is this a system problem or a patient problem? What's your hypothesis?",
+      "When women don't attend, what are we not seeing? Think about barriers – practical, cultural, psychological.",
+      "You can send more reminders, but what if the problem is trust, or appointment times, or childcare? What else could you try?"
+    ]
+  },
+  {
+    "id": "incident_occurred_plenary",
+    "category": "plenary",
+    "trigger": {
+      "condition": "incident_occurred"
+    },
+    "templates": [
+      "An incident occurred this cycle. Root cause analysis: was it a person, a process, or a system design issue?",
+      "When incidents happen under pressure, what's the learning culture like? Do staff feel safe to report and reflect?",
+      "How do you prevent this from happening again without adding more burden to an already stretched team?"
+    ]
+  },
+  {
+    "id": "budget_imbalance_capacity",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "budget_imbalance",
+      "parameters": { "budget": "capacityPoints", "threshold": 0.7 }
+    },
+    "templates": [
+      "This team spent heavily on capacity. What were you trying to achieve? Did it work, or did you just spread the same staff thinner?",
+      "You prioritised clinical access over other needs. What was the trade-off? What didn't you invest in, and what was the consequence?"
+    ]
+  },
+  {
+    "id": "budget_imbalance_cash",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "budget_imbalance",
+      "parameters": { "budget": "cashBudget", "threshold": 0.7 }
+    },
+    "templates": [
+      "You've invested heavily in cash-intensive solutions. Is this sustainable? What happens when the budget runs out?",
+      "Short-term fixes often cost more in the long run. Are you building dependency on expensive temporary solutions?"
+    ]
+  },
+  {
+    "id": "budget_imbalance_energy",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "budget_imbalance",
+      "parameters": { "budget": "staffEnergy", "threshold": 0.7 }
+    },
+    "templates": [
+      "You've asked a lot of your team this cycle – audits, reviews, new processes. What's the cumulative burden?",
+      "Change fatigue is real. Are you building sustainable new practices, or are you adding to the to-do list?"
+    ]
+  },
+  {
+    "id": "trade_off_safety_equity",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "equity_safety_diverge",
+      "parameters": { "threshold": 15 }
+    },
+    "templates": [
+      "Your safety improved, but equity dropped. Who did you deprioritise to achieve that? Was it explicit or accidental?",
+      "Triage is essential, but it creates winners and losers. How do you make those decisions transparent and defensible?",
+      "There's a tension here between clinical risk and access equity. Where's your team's line? What's your ethical framework?"
+    ]
+  },
+  {
+    "id": "remote_monitoring_chosen",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "remote_monitoring_chosen"
+    },
+    "templates": [
+      "You've invested in remote monitoring. Implementation risk is high – tech issues, adoption, data overload. What's your mitigation plan?",
+      "Digital solutions can improve access, but they can also create new inequities. Who might be excluded? Older women? Those without smartphones?",
+      "Remote monitoring means more data. Do you have the capacity to respond to it? What's your escalation protocol?",
+      "This is a long-term investment. You won't see full benefits this cycle. How will you sustain the team through the implementation phase?"
+    ]
+  },
+  {
+    "id": "bank_agency_used",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "bank_agency_used"
+    },
+    "templates": [
+      "You've used bank/agency staff. Quick fix, but what's the impact on continuity of care? On team morale?",
+      "Agency staff cost 2-3x permanent staff. If you keep doing this, what's the budget impact next year?",
+      "Temporary staff don't know your systems, your women, your team culture. What safeguards are in place?",
+      "Is this a one-off pressure response, or are you papering over a structural workforce problem?"
+    ]
+  },
+  {
+    "id": "protected_time_chosen",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "protected_time_chosen"
+    },
+    "templates": [
+      "You've protected learning time. That's capacity you're not using for clinical work. What's the trade-off worth?",
+      "Investment in staff development pays off, but not immediately. What are you expecting to see in future cycles?",
+      "Protected time signals you value the team. How does that affect retention, morale, quality?"
+    ]
+  },
+  {
+    "id": "triage_tightened",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "triage_tightened"
+    },
+    "templates": [
+      "You tightened triage. Who now waits longer? What's the risk of missing someone who deteriorates while waiting?",
+      "Prioritisation is clinically sound, but how do you communicate this to women who feel deprioritised?",
+      "You've drawn a line between 'urgent' and 'routine'. How confident are you in that line? What if you get it wrong?"
+    ]
+  },
+  {
+    "id": "diabetes_specialist_safety",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "safety_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "As the diabetes specialist: What specific risks did you see emerging? Were glucose monitoring protocols followed?",
+      "From a diabetes perspective: What's the relationship between workload pressure and hypoglycaemia/DKA risk?",
+      "Specialist midwife lens: When you're stretched, what aspects of diabetes care get dropped first?"
+    ],
+    "roleSpecific": true,
+    "roles": ["diabetesSpecialist"]
+  },
+  {
+    "id": "diabetes_specialist_equity",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "equity_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "As the diabetes specialist: Are all women getting equal access to education, monitoring technology, and consultant review?",
+      "Specialist midwife perspective: Which groups are most likely to have poor glycaemic control, and are we reaching them?",
+      "Think about equity in diabetes care: Language barriers, health literacy, digital access. Where are the gaps?"
+    ],
+    "roleSpecific": true,
+    "roles": ["diabetesSpecialist"]
+  },
+  {
+    "id": "clinical_lead_governance",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "incident_occurred"
+    },
+    "templates": [
+      "As clinical lead: What governance arrangements need strengthening? Who owns risk in your service?",
+      "Clinical lead perspective: When you review this incident, what systems failed? What would you change?",
+      "From a leadership lens: How do you balance psychological safety (staff can report errors) with accountability?"
+    ],
+    "roleSpecific": true,
+    "roles": ["clinicalLead"]
+  },
+  {
+    "id": "clinical_lead_resilience",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "resilience_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "As clinical lead: You're responsible for service sustainability. What's your red line? When do you escalate to senior management?",
+      "Clinical leadership question: Are you building a service that depends on individual heroism, or robust systems?",
+      "From a leadership perspective: How do you maintain standards when you're permanently firefighting?"
+    ],
+    "roleSpecific": true,
+    "roles": ["clinicalLead"]
+  },
+  {
+    "id": "workforce_capacity_burnout",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "staff_burnout",
+      "parameters": { "threshold": 15 }
+    },
+    "templates": [
+      "Workforce lead: What are the retention risks here? How many of your team are updating their CVs right now?",
+      "From a capacity perspective: You can recruit more staff, but can you retain them if the culture doesn't change?",
+      "Workforce lens: What's the cost of losing experienced staff? How long to train a replacement?"
+    ],
+    "roleSpecific": true,
+    "roles": ["workforceCapacity"]
+  },
+  {
+    "id": "workforce_capacity_agency",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "bank_agency_used"
+    },
+    "templates": [
+      "Workforce perspective: Agency is a symptom of a deeper problem. What's the root cause you're not addressing?",
+      "From a capacity planning view: If you spent the agency money on permanent staff and training, what would change?",
+      "Workforce lead question: How does using agency affect your permanent staff's morale and sense of value?"
+    ],
+    "roleSpecific": true,
+    "roles": ["workforceCapacity"]
+  },
+  {
+    "id": "service_pathway_backlog",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "backlog_rise",
+      "parameters": { "threshold": 20 }
+    },
+    "templates": [
+      "Service pathway view: Where are the bottlenecks? Is it referrals in, triage, appointment slots, or follow-up?",
+      "From a pathway perspective: If you redesigned the service from scratch, what would you do differently?",
+      "Pathway lead: Are you measuring the right things? What metrics would tell you the pathway is working well?"
+    ],
+    "roleSpecific": true,
+    "roles": ["servicePathway"]
+  },
+  {
+    "id": "service_pathway_dna",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "dna_rise",
+      "parameters": { "threshold": 5 }
+    },
+    "templates": [
+      "Service pathway perspective: DNAs are waste. What's the root cause analysis? Is it the appointment system, or something deeper?",
+      "From a pathway view: What would a woman-centered booking system look like? What would you need to change?",
+      "Pathway lead question: Are you designing services for staff convenience or patient needs?"
+    ],
+    "roleSpecific": true,
+    "roles": ["servicePathway"]
+  },
+  {
+    "id": "all_roles_trade_off",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "Every decision has trade-offs. What did you choose NOT to do this cycle? Was that explicit or implicit?",
+      "You can't win all four pillars at once. Which one did you sacrifice, and why? Was it a conscious choice?",
+      "Looking at your decisions holistically: Is there a pattern? Are you consistently prioritising one dimension over others?"
+    ]
+  },
+  {
+    "id": "plenary_reflection_1",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "If you could redo this cycle, what would you change? Not with hindsight about outcomes, but about your decision-making process?",
+      "What did you learn about your own biases and assumptions? What surprised you?",
+      "How well did your team communicate? Where was there disagreement, and how did you resolve it?"
+    ]
+  },
+  {
+    "id": "plenary_reflection_2",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "Think about the women in your service. Did you consider their voices when making decisions? How?",
+      "What data would you want to have that you didn't have? What would you do with it?",
+      "Who wasn't at the table when you made these decisions? Service users? Junior staff? Other specialties?"
+    ]
+  },
+  {
+    "id": "cycle_comparison_1",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "Compare your strategy to other teams. What did they do differently? Why might that have worked for them?",
+      "If you were facilitating a team that's struggling, what advice would you give them based on your experience?",
+      "What's transferable from this simulation to your real-world service? What's the first thing you'd change?"
+    ]
+  },
+  {
+    "id": "safety_incident_deep_dive",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "incident_occurred"
+    },
+    "templates": [
+      "Walk through the incident. What were the contributing factors? Think Swiss cheese model – what holes aligned?",
+      "If you were doing a serious incident review, what questions would you ask? Who would you speak to?",
+      "What's the difference between an individual error and a system failure? Which is this?",
+      "How do you support the staff involved in an incident while also learning from it?"
+    ]
+  },
+  {
+    "id": "equity_deep_dive",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "equity_drop",
+      "parameters": { "threshold": 15 }
+    },
+    "templates": [
+      "Equity isn't just about equal treatment – it's about equitable outcomes. What groups had worse outcomes this cycle?",
+      "Think about social determinants: poverty, language, housing, digital access. How did your decisions interact with these?",
+      "What's the difference between equality (same for all) and equity (fair distribution)? Which did you prioritize?",
+      "How do you measure equity? What data would you collect to understand if you're reaching everyone?"
+    ]
+  },
+  {
+    "id": "staff_sustainability_deep",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "staff_burnout",
+      "parameters": { "threshold": 20 }
+    },
+    "templates": [
+      "Your staff are exhausted. What would a sustainable service model look like? Be specific – how would it differ from now?",
+      "Burnout has stages: enthusiasm, stagnation, frustration, apathy. Where is your team, and what's the intervention?",
+      "What creates moral injury in healthcare? When have you felt it? How do you prevent it in your team?",
+      "If your best midwife said 'I'm leaving', what would you do to change their mind? Would it work?"
+    ]
+  },
+  {
+    "id": "resilience_planning",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "resilience_drop",
+      "parameters": { "threshold": 15 }
+    },
+    "templates": [
+      "Resilience is the ability to absorb shocks. What shocks could you absorb now? What would break you?",
+      "Think about your service as infrastructure: bridges, buildings. Where are the weak points? What needs reinforcing?",
+      "How much redundancy do you have? If one person is off sick, does the whole system fail?",
+      "What would a 'stress test' of your service look like? What scenarios would you plan for?"
+    ]
+  },
+  {
+    "id": "digital_implementation",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "remote_monitoring_chosen"
+    },
+    "templates": [
+      "Digital implementation is hard. What's your change management plan? Who are your champions? Who are your skeptics?",
+      "Think about the implementation curve: early adopters, early majority, late majority, laggards. Where's your team?",
+      "What training and support do staff need? What training do women need? Who provides it?",
+      "How do you know if the technology is working? What metrics? What feedback loops?"
+    ]
+  },
+  {
+    "id": "financial_sustainability",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "budget_imbalance",
+      "parameters": { "budget": "cashBudget", "threshold": 0.8 }
+    },
+    "templates": [
+      "You've spent heavily. What's the business case for the next financial year? How do you justify this to commissioners?",
+      "Short-term spending can prevent long-term costs (litigation, poor outcomes). How do you quantify that?",
+      "What's the opportunity cost? What else could you have done with that money?",
+      "Are you shifting costs or solving problems? Be honest."
+    ]
+  },
+  {
+    "id": "governance_maturity",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "incident_occurred"
+    },
+    "templates": [
+      "What does good governance look like in a diabetes midwifery service? Clear roles, escalation, audit, feedback?",
+      "How mature is your governance? Reactive (fixing problems) or proactive (preventing them)?",
+      "Who owns clinical risk? Who owns service risk? Where does accountability sit?",
+      "What's the relationship between governance and bureaucracy? When does necessary oversight become burden?"
+    ]
+  },
+  {
+    "id": "communication_breakdown",
+    "category": "team_specific",
+    "trigger": {
+      "condition": "incident_occurred"
+    },
+    "templates": [
+      "Most incidents involve communication failure. Where did communication break down this cycle?",
+      "Think about handovers: midwife to midwife, midwife to doctor, team to team. What's your most vulnerable handover point?",
+      "How do you ensure critical information doesn't get lost? What's the signal vs noise problem?",
+      "What role does hierarchy play? Do junior staff feel they can speak up? How do you know?"
+    ]
+  },
+  {
+    "id": "data_and_metrics",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "What metrics are you tracking in your real service? Are they the right ones? What's missing?",
+      "Outcome metrics (what happened) vs process metrics (what did you do). Which do you focus on? Why?",
+      "How do you avoid gaming the system? When targets become goals, what gets distorted?",
+      "What data do you wish you had? What would it tell you?"
+    ]
+  },
+  {
+    "id": "leadership_under_pressure",
+    "category": "role_lens",
+    "trigger": {
+      "condition": "staff_burnout",
+      "parameters": { "threshold": 15 }
+    },
+    "templates": [
+      "Leadership under pressure: How do you stay calm when everything's on fire? How do you model that for your team?",
+      "What's your leadership style when under pressure? Command and control? Collaborative? Adaptive? Is it effective?",
+      "How do you balance optimism (we can fix this) with realism (this is really hard)? Where's the line?",
+      "When do you ask for help? When do you escalate? What stops you?"
+    ],
+    "roleSpecific": true,
+    "roles": ["clinicalLead"]
+  },
+  {
+    "id": "system_thinking",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "Think systems, not silos. How does your diabetes service interact with booking, labour ward, postnatal, community? Where are the weak points?",
+      "Unintended consequences: What decision did you make that had effects you didn't predict?",
+      "Feedback loops: When things go well, what reinforces that? When things go badly, what makes it worse?",
+      "Complex systems have emergent properties. You can't predict everything. How do you build in adaptive capacity?"
+    ]
+  },
+  {
+    "id": "coproduction",
+    "category": "plenary",
+    "trigger": {
+      "condition": "equity_drop",
+      "parameters": { "threshold": 10 }
+    },
+    "templates": [
+      "Co-production: What would it look like to design this service WITH women, not FOR them?",
+      "Who are the experts? Clinicians? Managers? Or the women living with diabetes every day?",
+      "How do you gather and act on user feedback? Do you just ask, or do you genuinely change practice?",
+      "What would a service user say if they were in this room right now? What question would they ask you?"
+    ]
+  },
+  {
+    "id": "real_world_application",
+    "category": "plenary",
+    "trigger": {
+      "condition": "trade_off_detected"
+    },
+    "templates": [
+      "This is a simulation. What's different in reality? What constraints exist that aren't in the game?",
+      "What's one thing you'll do differently on Monday because of this session?",
+      "What would you need – resources, permission, support – to actually implement your best ideas?",
+      "Who needs to hear the insights from this session? How will you share them?"
+    ]
+  }
+]

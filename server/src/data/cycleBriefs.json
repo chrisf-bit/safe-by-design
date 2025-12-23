@@ -1,0 +1,68 @@
+[
+  {
+    "cycle": 1,
+    "title": "Booking Wave: Establishing the Service",
+    "description": "Your diabetes midwifery service is receiving the first surge of referrals from community midwives. You're establishing pathways, building relationships with consultants, and setting baseline standards. Demand is manageable but rising, and you need to make early decisions that will shape how the service operates under future pressure.",
+    "signals": [
+      "Referral rate: 45 women per month (8% of bookings)",
+      "Current capacity: 50 women with existing caseload",
+      "Staff baseline: Team feeling motivated but aware of impending workload"
+    ],
+    "pressureLevel": 1
+  },
+  {
+    "cycle": 2,
+    "title": "Antenatal Surge: Capacity Strain",
+    "description": "Referrals have increased significantly. Women with pre-existing diabetes are now entering the service, and several late bookings with poor glucose control need rapid assessment. Your team is stretched, and you're starting to see the first signs of system pressure: longer waits, missed appointments, and staff working through breaks.",
+    "signals": [
+      "Referral rate: 65 women per month (12% of bookings)",
+      "DNA rate climbing to 18% from baseline 12%",
+      "Staff reporting: 'We need more time per woman, but we don't have it'"
+    ],
+    "pressureLevel": 2
+  },
+  {
+    "cycle": 3,
+    "title": "Intrapartum Pressure: Escalation Surge",
+    "description": "Multiple women are now reaching term simultaneously, requiring birth planning, escalation to consultant-led care, and coordination with labour ward. You're managing complex cases including poorly controlled T1DM and emergency admissions. The team is firefighting, and there's tension between maintaining safety and maintaining access.",
+    "signals": [
+      "12 women requiring high-dependency birth planning this month",
+      "Labour ward asking for clearer handover protocols after 2 communication gaps",
+      "Team sickness: 1 midwife off with stress-related absence"
+    ],
+    "pressureLevel": 4
+  },
+  {
+    "cycle": 4,
+    "title": "Postnatal Gap: Hidden Vulnerabilities",
+    "description": "You're now juggling antenatal care for new referrals plus postnatal follow-up for women who delivered recently. Some women have been lost to follow-up, and there are concerns about postnatal glucose testing compliance. Meanwhile, a serious incident review has identified documentation gaps in two recent cases.",
+    "signals": [
+      "25% of postnatal women have not attended 6-week glucose testing",
+      "Serious incident report recommends improved escalation documentation",
+      "Backlog: 30 women waiting more than 2 weeks for first appointment"
+    ],
+    "pressureLevel": 5
+  },
+  {
+    "cycle": 5,
+    "title": "Winter Pressure: System at Breaking Point",
+    "description": "It's winter. Flu season, staff absences, and hospital capacity pressures are colliding. Emergency admissions for DKA and hypoglycaemia have spiked. Your service is running at 130% capacity, and you're making difficult triage decisions daily. The risk of burnout is real, and you're hearing about excellent midwives considering leaving.",
+    "signals": [
+      "Staff sickness: 25% of team off or working reduced hours",
+      "Emergency admissions: 8 this month vs baseline of 2-3",
+      "Clinical governance flagging 'service under severe strain' in Board report"
+    ],
+    "pressureLevel": 6
+  },
+  {
+    "cycle": 6,
+    "title": "Recovery & Resilience: Rebuilding for the Future",
+    "description": "The acute pressure has eased slightly, but your service has scars. Some staff are exhausted, trust from women and families needs rebuilding, and you have data showing equity gaps. You have one final opportunity to make decisions that will set the foundation for a more sustainable, resilient service – or risk repeating the same cycle next year.",
+    "signals": [
+      "Staff survey: 40% considering leaving the specialty within 12 months",
+      "Equity audit shows women from minority ethnic backgrounds 30% more likely to have missed appointments",
+      "Budget review: overspend of 15% due to bank/agency usage"
+    ],
+    "pressureLevel": 5
+  }
+]

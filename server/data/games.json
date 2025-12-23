@@ -1,0 +1,42 @@
+[
+  {
+    "id": "P_3gSMe5aN-wQOOpP3XsI",
+    "game_code": "8WDM5V",
+    "created_at": "2025-12-21T18:42:59.749Z",
+    "status": "in_cycle",
+    "number_of_teams": 2,
+    "current_cycle": 1,
+    "scenario_seed": 158822,
+    "facilitator_name": null
+  },
+  {
+    "id": "DrNX0fgifUTTAcescS_DS",
+    "game_code": "XXRQDF",
+    "created_at": "2025-12-22T09:34:51.618Z",
+    "status": "in_cycle",
+    "number_of_teams": 2,
+    "current_cycle": 1,
+    "scenario_seed": 359562,
+    "facilitator_name": null
+  },
+  {
+    "id": "_XuXoKvDJ5fmz9er0OxW1",
+    "game_code": "WP9CZR",
+    "created_at": "2025-12-22T09:37:20.586Z",
+    "status": "in_cycle",
+    "number_of_teams": 2,
+    "current_cycle": 1,
+    "scenario_seed": 439093,
+    "facilitator_name": null
+  },
+  {
+    "id": "v-YKOM6GNfnkZqgBeCPDk",
+    "game_code": "QSDPGP",
+    "created_at": "2025-12-22T10:03:51.954Z",
+    "status": "in_cycle",
+    "number_of_teams": 2,
+    "current_cycle": 1,
+    "scenario_seed": 136917,
+    "facilitator_name": null
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mKSVbGH5JEIbmg0SxFRbv",
+    "game_id": "P_3gSMe5aN-wQOOpP3XsI",
+    "name": "C",
+    "joined_at": "2025-12-21T18:43:10.243Z",
+    "role_assignments": "[\"workforce\",\"pathway\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "4vUqrXIe9p2dNdCO3QkH3",
+    "game_id": "P_3gSMe5aN-wQOOpP3XsI",
+    "name": "D",
+    "joined_at": "2025-12-21T18:43:17.881Z",
+    "role_assignments": "[\"diabetesSpecialist\",\"clinicalLead\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "3hQz_3qELJ4htLaeIHwED",
+    "game_id": "DrNX0fgifUTTAcescS_DS",
+    "name": "C",
+    "joined_at": "2025-12-22T09:35:06.588Z",
+    "role_assignments": "[\"diabetesSpecialist\",\"clinicalLead\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "2gcBhnErYwqqc_U_t8-Uz",
+    "game_id": "DrNX0fgifUTTAcescS_DS",
+    "name": "D",
+    "joined_at": "2025-12-22T09:35:15.554Z",
+    "role_assignments": "[\"workforce\",\"pathway\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "ehNuIXWgDtqUjAvnE6FQ6",
+    "game_id": "_XuXoKvDJ5fmz9er0OxW1",
+    "name": "C",
+    "joined_at": "2025-12-22T09:37:33.451Z",
+    "role_assignments": "[\"workforce\",\"pathway\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "EuoI-zwBobyL-ini4UwHq",
+    "game_id": "_XuXoKvDJ5fmz9er0OxW1",
+    "name": "D",
+    "joined_at": "2025-12-22T09:37:42.762Z",
+    "role_assignments": "[\"clinicalLead\",\"diabetesSpecialist\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "Ykst0SgGQCUPGYGdFCw30",
+    "game_id": "v-YKOM6GNfnkZqgBeCPDk",
+    "name": "C",
+    "joined_at": "2025-12-22T10:04:03.350Z",
+    "role_assignments": "[\"workforce\",\"pathway\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  },
+  {
+    "id": "ul4I0PW160sRILqvLGN63",
+    "game_id": "v-YKOM6GNfnkZqgBeCPDk",
+    "name": "D",
+    "joined_at": "2025-12-22T10:04:15.888Z",
+    "role_assignments": "[\"diabetesSpecialist\",\"clinicalLead\"]",
+    "cumulative_score": "{\"safety\":0,\"equity\":0,\"staff\":0,\"resilience\":0,\"total\":0}"
+  }
+]
